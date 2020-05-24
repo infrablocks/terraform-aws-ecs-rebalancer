@@ -13,8 +13,8 @@ To use the module, include something like the following in your terraform
 configuration:
 
 ```hcl-terraform
-module "billing_policy" {
-  source = "infrablocks/billing-policy/aws"
+module "ecs_rebalancer" {
+  source = "infrablocks/ecs-rebalancer/aws"
   version = "0.0.1"
 }
 ```
