@@ -19,6 +19,10 @@ module "ecs_rebalancer" {
 }
 ```
 
+See the 
+[Terraform registry entry](https://registry.terraform.io/modules/infrablocks/ecs-rebalancer/aws/latest) 
+for more details.
+
 ### Inputs
 
 | Name                  | Description                                      | Default | Required |
@@ -28,6 +32,11 @@ module "ecs_rebalancer" {
 
 | Name | Description |
 |------|-------------|
+
+### Compatibility
+
+This module is compatible with Terraform versions greater than or equal to 
+Terraform 0.14.
 
 Development
 -----------
